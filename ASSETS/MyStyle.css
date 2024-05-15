@@ -1,0 +1,164 @@
+body {
+  background: linear-gradient(to right, #000000, #333, #000000);
+}
+
+.nav-underline {
+  margin: 10px 20px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-underline .nav-link {
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-underline .nav-link:hover {
+  color: white;
+}
+
+.nav-underline .nav-link.active {
+  font-weight: 500;
+  color: white;
+}
+
+.nav-item {
+  font-family: monospace;
+}
+
+.Banner {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.BannerImage {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.ChoosePath2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Platform {
+  border-radius: 10px;
+  background-color: black;
+  width: 700px;
+  height: 3cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 100px;
+  color: white;
+  padding: 0 5px;
+}
+
+.ChoosePath2 h2 {
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.Game {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 0 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Game img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+}
+
+.Game img:hover {
+  transform: scale(1.2);
+}
+
+.list-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 10px 0;
+}
+
+.list-with-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.list {
+  border-radius: 10px;
+  background: linear-gradient(to right, #ffffff, #000000);
+  width: 6cm;
+  list-style-type: none;
+  padding: 7px;
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+.list li {
+  font-weight: bolder;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #000000;
+  margin: 5px 0;
+}
+
+.list-image {
+  border-radius: 10px;
+  width: 230px;
+  height: 230px;
+}
+
+footer {
+  border-radius: 10px;
+  font-family: monospace;
+  margin: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.267);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-icon img {
+  width: 50px;
+  height: 50px;
+}
+.copyright {
+  font-size: 20px;
+}
